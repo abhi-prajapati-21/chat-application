@@ -1,0 +1,63 @@
+.user-list, .chat-container
+{
+ height: 100%;
+ width: 100%;
+ background-color: #212121;
+}
+
+.user-list-header , .chat-container-header
+{
+ height: 10%;
+ width: 100%;
+ background-color: #282828;   
+ display: flex;
+ align-items: center;
+ border-bottom: 1px solid rgba(187, 185, 185, 0.13);
+ z-index: 3;
+}
+
+.user-list-header h2
+{
+ color: #fff;   
+ font-weight: 500;
+ letter-spacing: 1px;
+ margin-left: 5px;
+}
+.chat, .users
+{
+ width: 100%;
+ height: 10%;
+ padding-left: 5px;
+ display: flex;
+ align-items: center;
+ color: white;
+ cursor: pointer;
+ border-bottom: 1px solid #53535348;
+}
+
+.user-box
+{
+ background-color: #242424;
+ height: 10%;
+ width: 100%;
+ display: flex;   
+ align-items: center;
+ border-bottom: 1px solid #53535348;
+ cursor: pointer;
+}
+
+.active
+{
+ background-color: #333333; 
+}
+.user-box h4, .chat-container-header h4
+{
+  color: #fff;
+  font-weight: 400;  
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.avatar
+{
+  margin-left: 10px;  
+}

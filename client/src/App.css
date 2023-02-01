@@ -1,0 +1,41 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.home
+{
+  height: 90vh;
+  width: 100%;  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.container
+{
+  width: 70%;
+  height: 100%;
+  display: flex;
+  border-radius: 3px;
+  overflow: hidden;
+}
+
+.userlist-container
+{
+min-width: 35%;
+width: 35%;
+height: 100%;
+background-color: #212121;
+}
+
+.chat-container
+{
+ flex-grow: 1;
+ height: 100%;
+ border-left: 1px solid rgba(128, 128, 128, 0.103);
+}

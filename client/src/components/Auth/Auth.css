@@ -1,0 +1,72 @@
+.auth
+{
+ height: calc(100% - 60px);
+ width: 100%;   
+ display: flex;
+ align-items: center;
+ justify-content: flex-start;
+ flex-direction: column;
+}
+
+.lines
+{
+  padding: 20px;  
+  text-align: center;
+  margin: 30px 0px 30px 0px;
+}
+
+.login-form
+{
+  min-width: 270px;  
+  background-color: whitesmoke;
+  padding: 13px;  
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.178);
+}
+
+.for-inputs
+{
+ display: flex;
+ flex-direction: column;  
+ align-items: flex-start;
+ margin-bottom: 20px; 
+}
+
+.log-inputs
+{
+ margin-top: 4px;   
+ width: 100%;
+ padding: 8px;
+ border-radius: 3px;
+ border: 1px solid rgb(114, 113, 113);
+ font-size: 13px;
+ outline: none;
+}
+
+.for-forgot-pass
+{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.auth-login-btn
+{
+    padding: 8px 15px;
+    background-color: dodgerblue;
+    border-radius: 3px;
+    color: white;
+    letter-spacing: 1px;
+    border: 1px solid dodgerblue;
+    font-size: 14px;  
+    font-weight: 500;
+    cursor: pointer;  
+}
+.sign-switch
+{
+ color: dodgerblue;  
+ cursor: pointer;
+}
